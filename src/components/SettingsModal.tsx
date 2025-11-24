@@ -1,5 +1,5 @@
 import { useGameStore } from '../store/useGameStore';
-import { X, Volume2, Music } from 'lucide-react';
+import { Volume2, Music } from 'lucide-react';
 
 export const SettingsModal = () => {
     const { musicVolume, sfxVolume, setVolume, toggleScreen, previousScreen } = useGameStore();

@@ -1,8 +1,8 @@
 import { useGameStore } from '../store/useGameStore';
-import { X, Check, XCircle } from 'lucide-react';
+import { Check, XCircle } from 'lucide-react';
 
 export const MailModal = () => {
-    const { activeLetter, handleLetterDecision, closeMail } = useGameStore();
+    const { activeLetter, handleLetterDecision } = useGameStore();
 
     if (!activeLetter) return null;
 

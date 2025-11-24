@@ -15,7 +15,7 @@ const bgMusic = new Howl({
 interface GameState {
   // Telas e Navegação
   screen: 'MENU' | 'TUTORIAL' | 'GAME' | 'SETTINGS' | 'ENDING';
-  previousScreen: 'MENU' | 'GAME' | null;
+  previousScreen: 'MENU' | 'TUTORIAL' | 'GAME' | 'SETTINGS' | 'ENDING' | null; 
   
   // Tutorial Check
   hasSeenTutorial: boolean; // NOVO
