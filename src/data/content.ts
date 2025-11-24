@@ -9,7 +9,7 @@ export const HEADLINES: NewsItem[] = [
     id: 'h-01',
     type: 'HEADLINE',
     tag: 'Crise Política',
-    title: 'BADERNA É A NOVA TÁTICA DA OPOSIÇÃO: GUERRA DE RUA PARA “IMPEACHMENT” DE JANGO',
+    title: 'Baderna é a nova tática da oposição: Guerra de rua para “Impeachment” de Jango',
     body: 'Setores da oposição passaram a utilizar a desordem nas ruas como instrumento político, estimulando tumultos e confrontos para acelerar a queda do presidente João Goulart. Segundo a reportagem, a “baderna” virou estratégia deliberada para pressionar instituições e criar ambiente favorável ao afastamento de Jango.',
     context: 'A manchete refere-se ao período de intensa mobilização política no final de março de 1964. Diversos grupos participavam de atos públicos, gerando confrontos e tensões nas ruas. O cenário contribuiu para ampliar a percepção de instabilidade institucional nos dias que antecederam a saída de João Goulart. Ver mais em: Jornal Última Hora, Edição 04318, Rio de Janeiro, 31 de março de 1964.',
     
@@ -18,13 +18,13 @@ export const HEADLINES: NewsItem[] = [
 
     publishImpact: { 
       money: +35,       
-      censor: +10,      
+      censor: -10,      
       public: -15      
     },
 
     censorImpact: { 
       money: -100,      
-      censor: -20,      
+      censor: +20,      
       public: +20       
     }
   },
@@ -41,14 +41,14 @@ export const HEADLINES: NewsItem[] = [
 
     publishImpact: { 
       money: +35, 
-      censor: -10, 
+      censor: +10, 
       public: +10 
     },
 
     censorImpact: { 
       money: -80, 
-      censor: +5, 
-      public: -10 
+      censor: -12, 
+      public: -15 
     }
   },
   {
@@ -64,13 +64,13 @@ export const HEADLINES: NewsItem[] = [
 
     publishImpact: { 
       money: +35, 
-      censor: -10, 
+      censor: +10, 
       public: +10 
     },
 
     censorImpact: { 
       money: -80, 
-      censor: +5, 
+      censor: -10, 
       public: -10 
     }
   },
@@ -87,7 +87,7 @@ export const HEADLINES: NewsItem[] = [
 
     publishImpact: { 
       money: +35, 
-      censor: -10, 
+      censor: +10, 
       public: +15 
     },
 
@@ -166,6 +166,121 @@ export const HEADLINES: NewsItem[] = [
       public: -15 
     }
   },
+  {
+    id: 'h-08',
+    type: 'HEADLINE',
+    tag: 'Censura',
+    title: 'CRIAÇÃO E CENSURA',
+    body: 'Até onde a censura esteriliza a criação artística? Subjugados a um controle que se torna cada vez mais rígido - às vezes prévio, às vezes não - os artistas brasileiros apontam seus principais problemas: sufocamento de manifestações que poderiam ser positivas à cultura, desgaste em termos de renovação cultural, desajuste do processo brasileiro e o desemprego que atinge centenas de pessoas dedicadas unicamente à arte.',
+    context: 'A manchete insere-se no momento em que diferentes setores artísticos relatavam dificuldades decorrentes das normas de controle cultural vigentes nos anos 1970. Debates públicos passaram a destacar como restrições, revisões prévias e vetos afetavam processos de criação e circulação de obras. Ver mais em: Jornal do Brasil, N° 260, Rio de Janeiro, 7 de janeiro de 1973.',
+    sourceUrl: 'https://memoria.bn.gov.br/DocReader/DocReader.aspx?bib=030015_09&Pesq=Diretas%20j%c3%a1&id=3510401088635&pagfis=285',
+    alignment: 'PRO_GOVERNMENT',
+    canAlter: false,
+
+    publishImpact: { 
+      money: +50, 
+      censor: +22, 
+      public: -14 
+    },
+
+    censorImpact: { 
+      money: -100, 
+      censor: +16, 
+      public: +12 
+    }
+  },
+  {
+    id: 'h-09',
+    type: 'HEADLINE',
+    tag: 'Desaparecimentos',
+    title: 'Editores somem em Brasília',
+    body: 'Brasília - Em nome da liderança do MDB, o Deputado Getúlio Dias (RS) fez ontem um apelo à presidência da Camara no sentido de interferir junto ao Governo para fornecer notícias sobre o paradeiro do editor Vitor José Melo Allegria Lobo e seu colega José Manuel dos Anjos Soares Guedes, presos pela Polícia Federal em Goiás, nos dias 13 e 14 de maio.',
+    context: 'Durante a ditadura, não era raro que jornalistas simplesmente “sumissem” após ações da Polícia Federal. O caso desses dois editores presos em Goiás revela como a busca por informações virava um jogo de esconde-esconde sombrio. Ver mais em: Jornal do Brasil, N° 84, Rio de Janeiro, 1 de julho de 1975.',
+    sourceUrl: 'https://memoria.bn.gov.br/DocReader/DocReader.aspx?bib=030015_09&Pesq=carta&id=3510401088635&pagfis=58104',
+    alignment: 'PRO_PEOPLE',
+    canAlter: false,
+
+    publishImpact: { 
+      money: +35, 
+      censor: -10, 
+      public: +15 
+    },
+
+    censorImpact: { 
+      money: -65, 
+      censor: +15, 
+      public: -15 
+    }
+  },
+  {
+    id: 'h-10',
+    type: 'HEADLINE',
+    tag: 'Censura',
+    title: 'Jornal do Brasil (RJ) - Cartas - Censura (I), 10 de fevereiro de 1977',
+    body: 'Venho juntar meu nome ao listão encaminhado ao Ministério da Justiça pedindo o fim da Censura. Sou estudante de Direito e acho que todos nós, universitários, devemos reclamar o fim da Censura à imprensa e às artes, pois este é o caminho próprio para a redemocratização do país.',
+    context: 'O texto foi publicado em 1977, período em que cartas de leitores passaram a expressar posições sobre temas políticos nas páginas de jornais. Nessa época, setores estudantis e profissionais enviavam mensagens pedindo revisão de práticas estatais. A carta integra as discussões públicas sobre o processo de abertura política. Ver mais em: Jornal do Brasil, N° 305, Rio de Janeiro, 10 de fevereiro de 1977.',
+    sourceUrl: 'https://memoria.bn.gov.br/DocReader/DocReader.aspx?bib=030015_09&hf=memoria.bn.gov.br&pagfis=90455',
+    alignment: 'PRO_PEOPLE',
+    canAlter: false,
+
+    publishImpact: { 
+      money: +50, 
+      censor: -10, 
+      public: +15 
+    },
+
+    censorImpact: { 
+      money: -100, 
+      censor: +22, 
+      public: -18 
+    }
+  },
+  {
+    id: 'h-11',
+    type: 'HEADLINE',
+    tag: 'Abertura Política',
+    title: 'Governo reafirma que mantém a abertura',
+    body: 'A intervenção nos sindicatos do ABC não representou qualquer mudança de orientação nos objetivos do Governo de manter e ampliar as reformas políticas, declarou o Presidente João Baptista de Figueiredo, segundo informou ontem o porta-voz do Palácio do Planalto, Sr Marco Antônio Kraemer.',
+    context: 'A manchete aparece num momento em que o país acompanhava, com cautela, os sinais de abertura política anunciados pelo governo. Mesmo após intervenções em sindicatos e outras tensões, autoridades buscavam reforçar que o processo continuaria. Ver mais em: Jornal do Brasil, N° 347, Rio de Janeiro, 25 de março de 1979.',
+    sourceUrl: 'https://memoria.bn.gov.br/DocReader/DocReader.aspx?bib=030015_09&Pesq=Diretas%20j%C3%A1&id=3510401088635&pagfis=136782',
+    alignment: 'PRO_GOVERNMENT',
+    canAlter: false,
+
+    publishImpact: { 
+      money: 0, 
+      censor: -15, 
+      public: +9 
+    },
+
+    censorImpact: { 
+      money: -100, 
+      censor: +15, 
+      public: -12 
+    }
+  },
+{
+    id: 'h-12',
+    type: 'HEADLINE',
+    tag: 'Eleições',
+    title: 'Governo prepara emenda que fixa diretas para 88',
+    body: 'O Governo Federal decidiu enviar ao Congresso, no fim de março, emenda constitucional que propõe o restabelecimento de eleições diretas para Presidente da República em 1988 - com a consequente redução do mandato presidencial para quatro anos - e para prefeitos das Capitais em 1986. A emenda já está redigida e a intenção é dar-lhe tramitação rápida.',
+    context: 'A manchete integra o período da abertura política no início dos anos 1980. O governo anunciou uma proposta de emenda que estabelecia novas regras eleitorais para cargos executivos, incluindo a previsão de eleições diretas em 1988. A medida dialogava com as discussões e pressões públicas por mudanças institucionais naquele momento. Ver mais em: Jornal do Brasil, N° 324, Rio de Janeiro, 28 de fevereiro de 1984.',
+    sourceUrl: 'https://memoria.bn.gov.br/DocReader/DocReader.aspx?bib=030015_10&hf=memoria.bn.gov.br&pagfis=115482',
+    alignment: 'PRO_PEOPLE',
+    canAlter: false,
+
+    publishImpact: { 
+      money: +35, 
+      censor: -10, 
+      public: +15 
+    },
+
+    censorImpact: { 
+      money: -65, 
+      censor: +15, 
+      public: -15 
+    }
+  },
 
   
 ];
@@ -176,7 +291,7 @@ export const HEADLINES: NewsItem[] = [
 // ============================================================================
 export const FILLERS: NewsItem[] = [
   {
-    id: 'f-01-inflacao',
+    id: 'f-01',
     type: 'FILLER',
     editionTitle: 'Edição Diária',
     tag: 'Economia',
@@ -255,7 +370,6 @@ export const LETTERS: Letter[] = [
       body: 'O Serviço de Inteligência interceptou documentos que provam que o governo deposto planejava entregar o Brasil a potências estrangeiras e acabar com a família cristã.',
       context: 'Fake news e propaganda anticomunista eram disseminadas amplamente.',
       images: ['/images/propaganda.jpg'],
-      alignment: 'PRO_GOVERNMENT', // Conta ponto pro governo se publicar
       
       canAlter: false, // Propaganda paga não se edita
       publishImpact: { money: 0, censor: -10, public: -15 }, // Povo odeia, governo ama
@@ -280,7 +394,6 @@ export const LETTERS: Letter[] = [
       body: 'Pedro da Silva, 22 anos, está desaparecido há 3 dias. Família acusa agentes do Estado de sequestro. O caso se soma a dezenas de outros relatos similares nesta semana.',
       context: 'O início do fenômeno dos "desaparecidos políticos".',
       images: ['/images/student.jpg'],
-      alignment: 'PRO_PEOPLE', // Conta ponto pro povo
       
       canAlter: false,
       publishImpact: { money: 0, censor: +40, public: +30 }, // Risco altíssimo de censura
