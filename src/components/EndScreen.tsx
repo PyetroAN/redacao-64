@@ -62,7 +62,7 @@ export const EndScreen = () => {
             src: [soundFile],
             volume: 0.5,
             loop: true, // Música de final fica em loop
-            fade: true
+            // fade: true
         });
 
         // Toca e salva na referência

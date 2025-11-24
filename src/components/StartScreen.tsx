@@ -47,7 +47,7 @@ export const StartScreen = () => {
             </button>
             
             <div className="absolute bottom-6 text-xs font-mono text-stone-500">
-                v1.0.0 - Projeto Universitário
+                v0.5.0 - Em Desenvolvimento
             </div>
         </div>
     );
