@@ -31,7 +31,8 @@ export const StartScreen = () => {
                     <BookOpen size={16} /> Tutorial
                 </button>
                 
-                <button 
+                <button
+                onClick={() => toggleScreen('TEACHERS_GUIDE')} 
                     className="border border-[#f0e6d2] text-[#f0e6d2] h-12 w-full font-body font-bold text-sm uppercase tracking-widest hover:bg-[#f0e6d2] hover:text-[#1a1a1a] transition flex items-center justify-center gap-2"
                 >
                     <GraduationCap size={16} /> Área do Professor

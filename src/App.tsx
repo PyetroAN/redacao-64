@@ -9,7 +9,8 @@ import { StartScreen } from './components/StartScreen';
 import { EndScreen } from './components/EndScreen';
 import { MailModal } from './components/MailModal';
 import { CriticalOverlay } from './components/CriticalOverlay';
-import { TutorialModal } from './components/TutorialModal'; // <--- ADIÇÃO AQUI
+import { TutorialModal } from './components/TutorialModal'; // <--- Tutorial
+import { TeachersGuideModal } from './components/TeachersGuideModal'; // <--- Guia do professor
 
 // Ícones
 import { Settings, Siren, Users, Wallet, Mail } from 'lucide-react';
@@ -70,6 +71,8 @@ function App() {
 
        {/* 2. TUTORIAL (NOVO) */}
        {screen === 'TUTORIAL' && <TutorialModal />}
+
+       {screen === 'TEACHERS_GUIDE' && <TeachersGuideModal />}
 
        {/* 3. TELA FINAL (Epílogos) */}
        {screen === 'ENDING' && <EndScreen />}
