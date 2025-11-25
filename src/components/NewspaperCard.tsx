@@ -101,7 +101,22 @@ export const NewspaperCard = ({ news }: Props) => {
               {news.tag}
             </span>
 
-            <h2 className="font-headline text-4xl leading-[0.9] text-[#1a1a1a] mb-5 uppercase tracking-tighter drop-shadow-sm">
+            <h2 
+              className="
+                font-headline 
+                text-2xl md:text-4xl       /* Mobile: menor / PC: maior */
+                leading-[1.1] md:leading-[0.9] /* Espaçamento de linha ajustado */
+                text-[#1a1a1a] 
+                mb-5 
+                uppercase 
+                tracking-tighter 
+                drop-shadow-sm 
+                text-balance               /* O SEGREDO: Equilibra as linhas */
+                hyphens-auto               /* Hifenização correta (ex: INS-TI-TU...) */
+                break-words                /* Previne vazamento de texto */
+              "
+              lang="pt-BR"                 /* Garante que o hífen respeite o português */
+            >
               {displayTitle}
             </h2>
 
